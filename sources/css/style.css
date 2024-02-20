@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    height: 180px;
+    width: 100%;
+    background-image: url("../img/banner.jpg");
+}
+.menu{
+    border: 1px solid #ccc;
+    height: 50px;
+    width: 100%;
+    background: #3399ff;
+}
+.list-menu{
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    list-style: none;
+    margin: 0 auto;
+    line-height: 27px;
+}
+.list-menu li{
+    float: left;
+    margin: 7px;
+    padding: 5px;
+}
+.list-menu li:hover a{
+    opacity: 0.7;
+}
+.list-menu li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: antiquewhite;
+}
+.main{
+    border: 1px solid #ccc;
+    height: auto;
+    width: 100%;
+}
+.sidebar{
+    border: 1px solid #000060;
+    height: auto;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+.maincontent{
+    border: 1px solid #000;
+    height: auto;
+    width: 78.8%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+.list-sidebar{
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    list-style: none;
+    margin: 0 auto;
+    line-height: 27px;
+}
+.list-sidebar li{
+    margin: 7px;
+    padding: 5px;
+}
+.list-sidebar li:hover a{
+    opacity: 0.7;
+}
+.list-sidebar li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+}
+
+.list-product{
+    list-style: none;
+
+}
+.list-product li{
+    border: 1px dashed #000;
+    width: 18%;
+    margin: 5px;
+    float: left;
+    overflow: hidden;
+}
+.list-product li:hover{
+    background-color: #ccc;
+}
+.list-product li:hover img{
+    scale: 1.1;
+}
+.list-product li p{
+    font-size: small;
+    margin-top: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list-product li img{
+    width: 100%;
+}
+.list-product li a{
+    text-decoration: none;
+    color: #000;
+}
+.footer{
+    height: auto;
+    width: 100%;
+    background: #00cc99;
+}
+.clear{
+    clear: both;
+}
+.price{
+    color: red;
+    font-weight: bold;
+}
